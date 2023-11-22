@@ -40,7 +40,7 @@ a{
 
 h1, h2, h3, h4{
     font-family: var(--fuenteHeading);
-    line-height: 1.2rem;
+    line-height: 1.2;
 }
 
 h1{
