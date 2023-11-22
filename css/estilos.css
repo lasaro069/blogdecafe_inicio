@@ -1,10 +1,12 @@
-:root{
-    --fuenteHeading: 'PT Sans', sans-serif;
-    --fuenteParrafos: 'Open Sans', sans-serif
+/* ***custom properties*** */
 
-    --primario: #784d3c;
-    --blanco: #ffffff;
-    --negro: #000000;
+:root{
+    --fuenteHeading: 'PT Sans', sans-serif; /* se crea la variable para el tipo de fuente primaria */
+    --fuenteParrafos: 'Open Sans', sans-serif /* se crea la variable para el tipo de fuente secundaria */
+
+    --primario: #784d3c; /* se crea la variable para el color primario */
+    --blanco: #ffffff; /* se crea la variable para el color blanco */
+    --negro: #000000; /* se crea la variable para el color negro */
 }
 
 html{
@@ -64,6 +66,6 @@ img{
     padding: 0;
 }
 
-.centrar-texto{
+.centr-texto{
     text-align: center;
 }
