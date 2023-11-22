@@ -6,6 +6,7 @@
 
     --primario: #784d3c; /* se crea la variable para el color primario */
     --blanco: #ffffff; /* se crea la variable para el color blanco */
+    --gris: #e1e1e1; /* se crea la variable para el color blanco */
     --negro: #000000; /* se crea la variable para el color negro */
 }
 
@@ -130,4 +131,36 @@ img{
         grid-template-columns: 2fr 1fr;
         column-gap: 4rem;
     }
+}
+
+.entrada{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.entrada:last-of-type{  /* selecciona la última entrada del bloque */
+    border: none;
+    margin-bottom: 0;
+}
+
+.boton{
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .boton{
+        display: inline-block;
+    }
+}
+
+.boton--primario{
+    background-color: var(--negro);
 }
